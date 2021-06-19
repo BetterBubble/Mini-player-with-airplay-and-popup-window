@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA49083B267DD48800E31FF7 /* HalfModal in Frameworks */ = {isa = PBXBuildFile; productRef = FA49083A267DD48800E31FF7 /* HalfModal */; };
+		FA9F69BB2635393600FAFFC6 /* SongsText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F69BA2635393600FAFFC6 /* SongsText.swift */; };
+		FA9F69BC2635393600FAFFC6 /* SongsText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F69BA2635393600FAFFC6 /* SongsText.swift */; };
+		FAA34C96263331B000BEDF80 /* multipility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA34C95263331B000BEDF80 /* multipility.swift */; };
+		FAA34C97263331B000BEDF80 /* multipility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA34C95263331B000BEDF80 /* multipility.swift */; };
+		FAA5E052263279CE00E889F0 /* RepeatAfterPageOfAppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E03F263279CB00E889F0 /* RepeatAfterPageOfAppleApp.swift */; };
+		FAA5E053263279CE00E889F0 /* RepeatAfterPageOfAppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E03F263279CB00E889F0 /* RepeatAfterPageOfAppleApp.swift */; };
+		FAA5E054263279CE00E889F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E040263279CB00E889F0 /* ContentView.swift */; };
+		FAA5E055263279CE00E889F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E040263279CB00E889F0 /* ContentView.swift */; };
+		FAA5E056263279CE00E889F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5E041263279CE00E889F0 /* Assets.xcassets */; };
+		FAA5E057263279CE00E889F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5E041263279CE00E889F0 /* Assets.xcassets */; };
+		FAA5E06F2632884F00E889F0 /* NextMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E06E2632884F00E889F0 /* NextMusic.swift */; };
+		FAA5E0702632884F00E889F0 /* NextMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E06E2632884F00E889F0 /* NextMusic.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA9F69BA2635393600FAFFC6 /* SongsText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsText.swift; sourceTree = "<group>"; };
+		FAA34C95263331B000BEDF80 /* multipility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipility.swift; sourceTree = "<group>"; };
+		FAA5E03F263279CB00E889F0 /* RepeatAfterPageOfAppleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatAfterPageOfAppleApp.swift; sourceTree = "<group>"; };
+		FAA5E040263279CB00E889F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA5E041263279CE00E889F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA5E046263279CE00E889F0 /* AppleMusic2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5E049263279CE00E889F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5E04E263279CE00E889F0 /* AppleMusic2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5E050263279CE00E889F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5E051263279CE00E889F0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FAA5E06E2632884F00E889F0 /* NextMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextMusic.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA5E043263279CE00E889F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA49083B267DD48800E31FF7 /* HalfModal in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5E04B263279CE00E889F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA5E039263279CB00E889F0 = {
+			isa = PBXGroup;
+			children = (
+				FAA5E03E263279CB00E889F0 /* Shared */,
+				FAA5E048263279CE00E889F0 /* iOS */,
+				FAA5E04F263279CE00E889F0 /* macOS */,
+				FAA5E047263279CE00E889F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA5E03E263279CB00E889F0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5E03F263279CB00E889F0 /* RepeatAfterPageOfAppleApp.swift */,
+				FAA5E040263279CB00E889F0 /* ContentView.swift */,
+				FA9F69BA2635393600FAFFC6 /* SongsText.swift */,
+				FAA34C95263331B000BEDF80 /* multipility.swift */,
+				FAA5E06E2632884F00E889F0 /* NextMusic.swift */,
+				FAA5E041263279CE00E889F0 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FAA5E047263279CE00E889F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5E046263279CE00E889F0 /* AppleMusic2.0.app */,
+				FAA5E04E263279CE00E889F0 /* AppleMusic2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA5E048263279CE00E889F0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5E049263279CE00E889F0 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		FAA5E04F263279CE00E889F0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5E050263279CE00E889F0 /* Info.plist */,
+				FAA5E051263279CE00E889F0 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA5E045263279CE00E889F0 /* AppleMusic2.0 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5E05A263279CE00E889F0 /* Build configuration list for PBXNativeTarget "AppleMusic2.0 (iOS)" */;
+			buildPhases = (
+				FAA5E042263279CE00E889F0 /* Sources */,
+				FAA5E043263279CE00E889F0 /* Frameworks */,
+				FAA5E044263279CE00E889F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleMusic2.0 (iOS)";
+			packageProductDependencies = (
+				FA49083A267DD48800E31FF7 /* HalfModal */,
+			);
+			productName = "RepeatAfterPageOfApple (iOS)";
+			productReference = FAA5E046263279CE00E889F0 /* AppleMusic2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA5E04D263279CE00E889F0 /* AppleMusic2.0 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5E05D263279CE00E889F0 /* Build configuration list for PBXNativeTarget "AppleMusic2.0 (macOS)" */;
+			buildPhases = (
+				FAA5E04A263279CE00E889F0 /* Sources */,
+				FAA5E04B263279CE00E889F0 /* Frameworks */,
+				FAA5E04C263279CE00E889F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleMusic2.0 (macOS)";
+			productName = "RepeatAfterPageOfApple (macOS)";
+			productReference = FAA5E04E263279CE00E889F0 /* AppleMusic2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA5E03A263279CB00E889F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FAA5E045263279CE00E889F0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FAA5E04D263279CE00E889F0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FAA5E03D263279CB00E889F0 /* Build configuration list for PBXProject "AppleMusic2.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA5E039263279CB00E889F0;
+			packageReferences = (
+				FA490839267DD48800E31FF7 /* XCRemoteSwiftPackageReference "HalfModal" */,
+			);
+			productRefGroup = FAA5E047263279CE00E889F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA5E045263279CE00E889F0 /* AppleMusic2.0 (iOS) */,
+				FAA5E04D263279CE00E889F0 /* AppleMusic2.0 (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA5E044263279CE00E889F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5E056263279CE00E889F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5E04C263279CE00E889F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5E057263279CE00E889F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA5E042263279CE00E889F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5E054263279CE00E889F0 /* ContentView.swift in Sources */,
+				FAA5E06F2632884F00E889F0 /* NextMusic.swift in Sources */,
+				FA9F69BB2635393600FAFFC6 /* SongsText.swift in Sources */,
+				FAA5E052263279CE00E889F0 /* RepeatAfterPageOfAppleApp.swift in Sources */,
+				FAA34C96263331B000BEDF80 /* multipility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5E04A263279CE00E889F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5E055263279CE00E889F0 /* ContentView.swift in Sources */,
+				FAA5E0702632884F00E889F0 /* NextMusic.swift in Sources */,
+				FA9F69BC2635393600FAFFC6 /* SongsText.swift in Sources */,
+				FAA5E053263279CE00E889F0 /* RepeatAfterPageOfAppleApp.swift in Sources */,
+				FAA34C97263331B000BEDF80 /* multipility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAA5E058263279CE00E889F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA5E059263279CE00E889F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FAA5E05B263279CE00E889F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV476A4Q76;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TSC.RepeatAfterPageOfApple;
+				PRODUCT_NAME = AppleMusic2.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA5E05C263279CE00E889F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WV476A4Q76;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TSC.RepeatAfterPageOfApple;
+				PRODUCT_NAME = AppleMusic2.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA5E05E263279CE00E889F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WV476A4Q76;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TSC.RepeatAfterPageOfApple;
+				PRODUCT_NAME = AppleMusic2.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FAA5E05F263279CE00E889F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WV476A4Q76;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TSC.RepeatAfterPageOfApple;
+				PRODUCT_NAME = AppleMusic2.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA5E03D263279CB00E889F0 /* Build configuration list for PBXProject "AppleMusic2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5E058263279CE00E889F0 /* Debug */,
+				FAA5E059263279CE00E889F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5E05A263279CE00E889F0 /* Build configuration list for PBXNativeTarget "AppleMusic2.0 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5E05B263279CE00E889F0 /* Debug */,
+				FAA5E05C263279CE00E889F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5E05D263279CE00E889F0 /* Build configuration list for PBXNativeTarget "AppleMusic2.0 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5E05E263279CE00E889F0 /* Debug */,
+				FAA5E05F263279CE00E889F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA490839267DD48800E31FF7 /* XCRemoteSwiftPackageReference "HalfModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ViktorMaric/HalfModal";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA49083A267DD48800E31FF7 /* HalfModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA490839267DD48800E31FF7 /* XCRemoteSwiftPackageReference "HalfModal" */;
+			productName = HalfModal;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FAA5E03A263279CB00E889F0 /* Project object */;
+}

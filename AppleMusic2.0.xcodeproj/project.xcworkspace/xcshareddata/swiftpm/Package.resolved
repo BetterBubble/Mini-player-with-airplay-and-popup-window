@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "HalfModal",
+        "repositoryURL": "https://github.com/ViktorMaric/HalfModal",
+        "state": {
+          "branch": null,
+          "revision": "621cbde96fe051805e359c75bb39183f46c234e4",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
